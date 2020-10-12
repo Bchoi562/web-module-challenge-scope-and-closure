@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+    A closure is when a function is created and can call upon a variable from outside of its scope. It is a one-way street because you cannot call upon a variable inside a function from the outside. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+The closure is used inside the function inside personalDice.  I can tell because there is another function made inside of personalDice declaring a new variable newRoll.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+"Dan rolled a" is always the same. The number that he rolls can alwaysa change. 
+
 c. What is the lexical scope of `newRoll`? 
+    dansRoll and zoesRoll is accessible to newRoll. 
+
+
+
 
 ### Task 2c - Exit Ticket
 
